@@ -34,7 +34,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 95px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .separator {
@@ -43,7 +43,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 60px;
-    color:#FFF;
+    color: #FFF;
     margin-left: 15px;
     margin-right: 10px;
 }
@@ -54,7 +54,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 95px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .mili-seconds {
@@ -63,10 +63,9 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 70px;
-    color:#FFF;
+    color: #FFF;
     margin-left: 20px;
     margin-top: 10px;
-
 }
 
 div {
@@ -77,41 +76,45 @@ div {
 }
 
 .button-start {
-    width: 190px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
     border: none;
     margin: 120px 40px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    color: #FFF;
+    background-color: #24999d;
 }
 
 .button-pause {
-    width: 190px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
     border: none;
     margin: 120px 40px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    display: none;
 }
 
 .button-continue {
-    width: 190px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
     border: none;
     margin: 120px 40px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    display: none;
 }
 
 .button-reset {
-    width: 190px;
-    height: 50px;
+    width: 210px;
+    height: 60px;
     border: none;
     margin: 120px 40px;
     border-radius: 10px;
@@ -120,7 +123,7 @@ div {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     opacity: .7;
     transform: scale(1.1);
 }

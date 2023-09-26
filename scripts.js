@@ -38,17 +38,25 @@ function startTimer() {
 
     }, 10)
 
+    buttonStart.style.display = "none";
+    buttonPause.style.display = "block";
+
 }
 
 function pauseTimer() {
     isPaused = true
+    buttonPause.style.display = "none"
+    buttonContinue.style.display = "block"
 }
 
 function resumeTimer() {
     isPaused = false
+    buttonPause.style.display = "block"
+    buttonContinue.style.display = "none"
 }
 
 function resetTimer() {
+
     clearInterval(cron);
     minutes = 0;
     seconds = 0;
@@ -57,6 +65,10 @@ function resetTimer() {
     minutesCron.textContent = "00"
     secondsCron.textContent = "00"
     milliSeconds.textContent = "000"
+
+    buttonStart.style.display = "block";
+    buttonPause.style.display = "none";
+    buttonContinue.style.display = "none";
 }
 
 function formatTimer(time) {
